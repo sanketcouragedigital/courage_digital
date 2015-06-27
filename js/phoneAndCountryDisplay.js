@@ -1,12 +1,14 @@
 $(function() {
     $("#fphone").hide();
-    $("#fcountry").hide();
+    $("#fcountry").hide();    
 		$("#fenquiry").change(function(){
 			var val=$(this).val();
 			switch (val){
 				case 'job':
 					$("#fphone").hide();
 					$("#fcountry").hide();
+					$("label.error").hide();
+  					$(".error").removeClass("error");				
 					break;
 				case 'business':
 					$("#fphone").show();
@@ -15,6 +17,8 @@ $(function() {
 				default:
 					$("#fphone").hide();
 					$("#fcountry").hide();
+					$("label.error").hide();
+ 					$(".error").removeClass("error");
 					break;
 			}
 		});
