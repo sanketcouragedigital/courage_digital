@@ -1,7 +1,7 @@
 $(function() {
 	$.validator.addMethod('customphone', function(value, element) {
-		return this.optional(element) || /^[7-9][0-9]{9}$/.test(value);
-	}, "Please enter a valid Phone No.");
+		return this.optional(element) || /^([0-9]+)$/.test(value);
+	}, "Please enter only numbers");
 
 	$().ready(function() {
 		// validate contact form on keyup and submit

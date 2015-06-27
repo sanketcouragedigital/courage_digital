@@ -22,7 +22,7 @@
   ga('send', 'pageview');
 </script>
 <script src="js/jquery.min.js"></script>
-<script src="js/phoneNumberDisplay.js"></script>
+<script src="js/phoneAndCountryDisplay.js"></script>
 <script src="js/js_validation/lib/jquery.js"></script>
 <script src="js/js_validation/dist/jquery.validate.js"></script>
 <script src="js/contactFormValidation.js"></script>
@@ -167,7 +167,7 @@
 </div>
 
 <div class="row 50%">
-<div class="4u" style="color: grey">
+<div class="3u" style="color: grey">
 	<select name="fenquiry" id="fenquiry" title="Please select any one" required>
 		<option value="">Enquiry Type</option>
 		<option value="job" id="fjob">Job</option>
@@ -175,9 +175,30 @@
 	</select>
 </div>
 
-<div class="2u"></div>
+<div class="3u">
+	<select name="fcountry" id="fcountry" title="Please select any one" required>
+		<option value="">Select Country</option>
+		<option value="India" id="findia">India</option>
+		<option value="USA" id="fusa">USA</option>
+		<option value="United Kingdom" id="fuk">United Kingdom</option>
+		<option value="France" id="ffrance">France</option>
+		<option value="Germany" id="fgermany">Germany</option>
+		<option value="China" id="fchina">China</option>
+		<option value="Japan" id="fjapan">Japan</option>
+		<option value="Russia" id="frussia">Russia</option>
+		<option value="Spain" id="fspain">Spain</option>
+		<option value="Australia" id="faustralia">Australia</option>
+		<option value="Southkorea" id="fsouthkorea">South Korea</option>
+		<option value="Canada" id="fcanada">Canada</option>
+		<option value="Israel" id="fisrael">Israel</option>
+		<option value="Netherlands" id="fnetherlands">Netherlands</option>
+		<option value="Singapore" id="fsingapore">Singapore</option>
+		<option value="Finland" id="ffinland">Finland</option>
+		<option value="Sweden" id="fsweden">Sweden</option>
+	</select>
+</div>
 
-<div class="6u"><input name="fphone" placeholder="Phone*" type="text" id="fphone" required /></div>
+<div class="6u"><input name="fphone" placeholder="Phone No. with Country Code*" type="text" id="fphone" required /></div>
 </div>
 
 <div class="row 50%">

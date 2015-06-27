@@ -6,17 +6,11 @@
 	 
     switch($fenquiry){
 		case 'business':
-			$db_host = 'localhost'; //hostname
-			$db_user = 'root'; // username
-			$db_password = ''; // password
-			$db_name = 'courage_digital'; //database name
-				
-			$con=mysql_connect($db_host,$db_user,$db_password) or die("Failed to connect to MySQL:".mysql_error());
-			$db=mysql_select_db($db_name,$con) or die("Failed to connect to MySQL:".mysql_error());
-			
-			$fphone = ($_POST['fphone']);
-			
-			$query="INSERT INTO contact_us(name,email,phone,message)VALUES('$fname','$femail','$fphone','$fsendmail')";
+			include_once('db_config.php');
+						
+			$fphone = $_POST['fphone'];
+			$fcountry = $_POST['fcountry'];
+			$query="INSERT INTO contact_us(name,email,country,phone,message)VALUES('$fname','$femail','$fcountry','$fphone','$fsendmail')";
 			$result=mysql_query($query);
 			if($result)
 			{
