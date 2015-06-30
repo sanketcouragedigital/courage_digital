@@ -157,7 +157,7 @@
 </header>
 
 <div class="box container 75%"><!-- Contact Form -->
-<form action="contact_data.php" method="POST" id="contactForm" class="cmxform">
+<form action="contactapi.php" method="POST" id="contactForm" class="cmxform" >
 <p>* Required fields</p>
 
 <div class="row 50%">
