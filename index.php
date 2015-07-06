@@ -21,12 +21,20 @@
   ga('create', 'UA-59779940-1', 'auto');
   ga('send', 'pageview');
 </script>
+<<<<<<< HEAD
     <script src="js/jquery.min.js"></script>
     <script src="js/phoneAndCountryDisplay.js"></script>
     <script src="js/js_validation/lib/jquery.js"></script>
     <script src="js/js_validation/dist/jquery.validate.js"></script>
     <script src="js/contactFormValidation.js"></script>
     <script src="js/formInput.js"></script>
+=======
+<script src="js/jquery.min.js"></script>
+<script src="js/phoneAndCountryDisplay.js"></script>
+<script src="js/js_validation/lib/jquery.js"></script>
+<script src="js/js_validation/dist/jquery.validate.js"></script>
+<script src="js/contactFormValidation.js"></script>
+>>>>>>> origin/master
 </head>
 <body><!-- Header -->
 <header id="header"><!-- Logo --><!-- <h1 id="logo">Big Picture</h1> --><img alt="Courage Digital" src="images/courage_digital_logo.png" /> <!-- Nav -->
@@ -189,7 +197,11 @@
 		<option value="Russia" id="frussia">Russia</option>
 		<option value="Spain" id="fspain">Spain</option>
 		<option value="Australia" id="faustralia">Australia</option>
+<<<<<<< HEAD
 		<option value="South Korea" id="fsouthkorea">South Korea</option>
+=======
+		<option value="Southkorea" id="fsouthkorea">South Korea</option>
+>>>>>>> origin/master
 		<option value="Canada" id="fcanada">Canada</option>
 		<option value="Israel" id="fisrael">Israel</option>
 		<option value="Netherlands" id="fnetherlands">Netherlands</option>

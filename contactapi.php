@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 include_once 'ContactData.php';
 
 function deliver_response($format, $api_response){
@@ -141,4 +142,7 @@ if(strcasecmp($_POST['method'],'send') == 0){
 
 // Return Response to browser
 deliver_response($_POST['format'], $response);
+=======
+
+>>>>>>> origin/master
 ?>
