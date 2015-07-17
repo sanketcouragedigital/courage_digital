@@ -4,7 +4,8 @@
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<title>Courage Digital | Complete Digital Agency Mumbai| Custom Software Development Mumbai</title>
 	<meta content="Courage Digital is a complete one stop shop for all your digital needs. From custom software development, e-commerce, mobile applications, SEO, social media marketing we do it all." name="description" />
-	<meta content="Digital Agency, Top Digital Agency, Custom Software Development, Ecommerce website, e-commerce website, mobile application development mumbai, top software development comapnies in india, top digital agencies in india" name="keywords" /><!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]--><script src="js/jquery.min.js"></script><script src="js/jquery.poptrox.min.js"></script><script src="js/jquery.scrolly.min.js"></script><script src="js/jquery.scrollgress.min.js"></script><script src="js/skel.min.js"></script><script src="js/init.js"></script>
+	<meta content="Digital Agency, Top Digital Agency, Custom Software Development, Ecommerce website, e-commerce website, mobile application development mumbai, top software development comapnies in india, top digital agencies in india" name="keywords" /><!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.min.js"></script><script src="js/jquery.poptrox.min.js"></script><script src="js/jquery.scrolly.min.js"></script><script src="js/skel.min.js"></script>
 	
 	<noscript>
 			<link rel="stylesheet" href="couragedigital.com/css/skel.css" />
@@ -21,20 +22,13 @@
   ga('create', 'UA-59779940-1', 'auto');
   ga('send', 'pageview');
 </script>
-<<<<<<< HEAD
     <script src="js/jquery.min.js"></script>
     <script src="js/phoneAndCountryDisplay.js"></script>
     <script src="js/js_validation/lib/jquery.js"></script>
     <script src="js/js_validation/dist/jquery.validate.js"></script>
-    <script src="js/contactFormValidation.js"></script>
     <script src="js/formInput.js"></script>
-=======
-<script src="js/jquery.min.js"></script>
-<script src="js/phoneAndCountryDisplay.js"></script>
-<script src="js/js_validation/lib/jquery.js"></script>
-<script src="js/js_validation/dist/jquery.validate.js"></script>
-<script src="js/contactFormValidation.js"></script>
->>>>>>> origin/master
+    <script src="js/init.js"></script>
+    <script src="js/jquery.scrollgress.min.js"></script>
 </head>
 <body><!-- Header -->
 <header id="header"><!-- Logo --><!-- <h1 id="logo">Big Picture</h1> --><img alt="Courage Digital" src="images/courage_digital_logo.png" /> <!-- Nav -->
@@ -51,27 +45,27 @@
 <!-- Intro -->
 
 <section class="main style1 dark fullscreen" id="intro">
-<div class="content container 75%">
-<header>
-<h2>Roarrr !!</h2>
-</header>
+    <div class="content container 75%">
+        <header>
+            <h2>Roarrr !!</h2>
+        </header>
 
-<p>Welcome to <strong>Courage Digital,</strong> a complete digital solutions agency. We are a bunch of crazy, creative tech geeks working together to build world class digital solutions with one common goal - to leverage technology to help grow your business.</p>
+        <p>Welcome to <strong>Courage Digital,</strong> a complete digital solutions agency. We are a bunch of crazy, creative tech geeks working together to build world class digital solutions with one common goal - to leverage technology to help grow your business.</p>
 
-<footer><a class="button style2 down" href="#one">More</a></footer>
-</div>
+        <footer><a class="button style2 down" href="#one">More</a></footer>
+    </div>
 </section>
 <!-- One -->
 
 <section class="main style2 right dark fullscreen" id="one">
-<div class="content box style2">
-<header>
-<h2>What We Do ?</h2>
-</header>
+    <div class="content box style2">
+        <header>
+        <h2>What We Do ?</h2>
+        </header>
 
-<p><strong>Have lots of fun, drink coffee and create magic ! </strong>Our focus is to enable technology to do all the heavy lifting for you while you as the business owner can focus on profitability and growth. Some your load that we can take up:</p>
-</strong>
-<ul>
+        <p><strong>Have lots of fun, drink coffee and create magic ! </strong>Our focus is to enable technology to do all the heavy lifting for you while you as the business owner can focus on profitability and growth. Some your load that we can take up:</p>
+        </strong>
+        <ul>
 							
 							<li><strong>Technical Consulting</strong>
 							<p>You have come up with a great idea which requires <strong>technical expertise</strong>, or you have an existing technical product for which you need <strong>consultation</strong> or help with <strong>maintenance</strong>, look no more.
@@ -100,19 +94,20 @@
 							</li>
 						
 
-</ul>
-</strong>
-</div>
-<a class="button style2 down anchored" href="#work">Next</a></section>
+        </ul>
+        </strong>
+    </div>
+    <a class="button style2 down anchored" href="#work">Next</a>
+</section>
 <!-- Two --><!--  --><!-- Work -->
 
 <section class="main style3 primary" id="work">
-<div class="content container">
-<header>
-<h2>Our Work</h2>
+    <div class="content container">
+        <header>
+            <h2>Our Work</h2>
 
-<p>Our work will be uploaded shortly.</p>
-</header>
+            <p>Our work will be uploaded shortly.</p>
+        </header>
 <!-- Lightbox Gallery  --><!--<div class="container 75% gallery">
 							<div class="row 0% images">
 								<div class="6u"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a></div>
@@ -127,127 +122,123 @@
 								<div class="6u"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a></div>
 							</div>
 						</div> -->
- </div>
+    </div>
  <!--Careers -->
  
- <section id="careers" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Come work with us</h2>
-					</header>
-					<p>We are currently looking to hire for the following positions: </p>
-					<strong>
-					<ul>
-						<li>Web/Javascript developer</li>
-						<li>Marketing Intern</li>
-						<li>Content Creators</li>
-					
-					</ul>
-					</strong>
-					<p>If you think you would enjoy working in any of these roles please send your resume to: <strong>careers@couragedigital.com </strong></p>
-				</div>
-				<a href="#contact" class="button style2 down anchored">Next</a>
-			</section>
+    <section id="careers" class="main style2 left dark fullscreen">
+        <div class="content box style2">
+			<header>
+				<h2>Come work with us</h2>
+			</header>
+			<p>We are currently looking to hire for the following positions: </p>
+			<strong>
+				<ul>
+					<li>Web/Javascript developer</li>
+					<li>Marketing Intern</li>
+					<li>Content Creators</li>
+				</ul>
+			</strong>
+			<p>If you think you would enjoy working in any of these roles please send your resume to: <strong>careers@couragedigital.com </strong></p>
+		</div>
+		<a href="#contact" class="button style2 down anchored">Next</a>
+    </section>
  
  <!--End of Careers -->
 </section>
 <!-- Contact -->
 
 <section class="main style3 secondary" id="contact">
-<div class="content container">
-<header>
-<h2>Roarr to us.</h2>
+    <div class="content container">
+        <header>
+            <h2>Roarr to us.</h2>
 
-<p>If you think we can help you get into the digital world, please write to us. We are always hungry for work.</p>
+            <p>If you think we can help you get into the digital world, please write to us. We are always hungry for work.</p>
 
-<p>Office Address: 16 Bussa Industrial Estate, Near Century Bazar, Worli, Mumbai 400025 India</p>
-<p>Office Address (USA) : 2051 Thomas Ave, San Francisco, CA 94124
+            <p>Office Address: 16 Bussa Industrial Estate, Near Century Bazar, Worli, Mumbai 400025 India</p>
+            <p>Office Address (USA) : 2051 Thomas Ave, San Francisco, CA 94124
 
-</header>
+        </header>
 
-<div class="box container 75%"><!-- Contact Form -->
-<form action="contactapi.php" method="POST" id="contactForm" class="cmxform" >
-<p>* Required fields</p>
+    <div class="box container 75%"><!-- Contact Form -->
+    <form action="contactapi.php" method="POST" id="contactForm" class="cmxform" >
+        <p>* Required fields</p>
 
-<div class="row 50%">
-<div class="6u"><input name="fname" placeholder="Name*" type="text" id="fname" required /></div>
+        <div class="row 50%">
+            <div class="6u"><input name="name" placeholder="Name*" type="text" id="name" required /></div>
 
-<div class="6u"><input name="femail" placeholder="Email*" type="email" id="femail" required /></div>
-</div>
+            <div class="6u"><input name="email" placeholder="Email*" type="email" id="email" required /></div>
+        </div>
 
-<div class="row 50%">
-<div class="3u" style="color: grey">
-	<select name="fenquiry" id="fenquiry" title="Please select any one" required>
-		<option value="">Enquiry Type</option>
-		<option value="job" id="fjob">Job</option>
-		<option value="business" id="fbusiness">Business</option>
-	</select>
-</div>
+        <div class="row 50%">
+            <div class="3u" style="color: grey">
+	           <select name="enquiry" id="enquiry" title="Please select any one" required>
+		          <option value="">Enquiry Type</option>
+		          <option value="job" id="job">Job</option>
+		          <option value="business" id="business">Business</option>
+	           </select>
+            </div>
 
-<div class="3u">
-	<select name="fcountry" id="fcountry" title="Please select any one" required>
-		<option value="">Select Country</option>
-		<option value="India" id="findia">India</option>
-		<option value="USA" id="fusa">USA</option>
-		<option value="United Kingdom" id="fuk">United Kingdom</option>
-		<option value="France" id="ffrance">France</option>
-		<option value="Germany" id="fgermany">Germany</option>
-		<option value="China" id="fchina">China</option>
-		<option value="Japan" id="fjapan">Japan</option>
-		<option value="Russia" id="frussia">Russia</option>
-		<option value="Spain" id="fspain">Spain</option>
-		<option value="Australia" id="faustralia">Australia</option>
-<<<<<<< HEAD
-		<option value="South Korea" id="fsouthkorea">South Korea</option>
-=======
-		<option value="Southkorea" id="fsouthkorea">South Korea</option>
->>>>>>> origin/master
-		<option value="Canada" id="fcanada">Canada</option>
-		<option value="Israel" id="fisrael">Israel</option>
-		<option value="Netherlands" id="fnetherlands">Netherlands</option>
-		<option value="Singapore" id="fsingapore">Singapore</option>
-		<option value="Finland" id="ffinland">Finland</option>
-		<option value="Sweden" id="fsweden">Sweden</option>
-	</select>
-</div>
+            <div class="3u">
+	           <select name="country" id="country" title="Please select any one" required>
+		          <option value="">Select Country</option>
+		          <option value="India" id="india">India</option>
+		          <option value="USA" id="usa">USA</option>
+		          <option value="United Kingdom" id="uk">United Kingdom</option>
+		          <option value="France" id="france">France</option>
+		          <option value="Germany" id="germany">Germany</option>
+		          <option value="China" id="china">China</option>
+		          <option value="Japan" id="japan">Japan</option>
+		          <option value="Russia" id="russia">Russia</option>
+		          <option value="Spain" id="spain">Spain</option>
+		          <option value="Australia" id="australia">Australia</option>
+		          <option value="South Korea" id="southkorea">South Korea</option>
+		          <option value="Canada" id="canada">Canada</option>
+		          <option value="Israel" id="israel">Israel</option>
+		          <option value="Netherlands" id="netherlands">Netherlands</option>
+		          <option value="Singapore" id="singapore">Singapore</option>
+		          <option value="Finland" id="finland">Finland</option>
+		          <option value="Sweden" id="sweden">Sweden</option>
+	           </select>
+            </div>
 
-<div class="6u"><input name="fphone" placeholder="Phone No. with Country Code*" type="text" id="fphone" required /></div>
-</div>
+            <div class="6u">
+                <input name="phone" placeholder="Phone No. with Country Code*" type="text" id="phone" required />
+            </div>
+        </div>
 
-<div class="row 50%">
-<div class="12u"><textarea name="fsendmail" placeholder="Message" rows="6" id="fsendmail"></textarea></div>
-</div>
+        <div class="row 50%">
+            <div class="12u">
+                <textarea name="message" placeholder="Message" rows="6" id="message"></textarea>
+                <input name="method" type="hidden" id="method" value="sendmail" />
+                <input name="format" type="hidden" id="format" value="json" />
+            </div>
+        </div>
 
-<div class="row">
-<div class="12u">
-<ul class="actions">
-	<li><input type="submit" value="Send Message" id="submit" /></li>
-</ul>
-</div>
-</div>
-    <!--<div class="row">
-    <div class="12u">
-        <label id="response"></label>
+        <div class="row">
+            <div class="12u">
+                <ul class="actions">
+	               <li><input type="submit" value="Send Message" id="submit" /></li>
+                </ul>
+            </div>
+        </div>
+    </form>
     </div>
-    </div>-->
-</form>
-</div>
-</div>
+    </div>
 </section>
 <!-- Footer -->
 
 <footer id="footer"><!-- Icons -->
-<ul class="actions">
-	<li><a class="icon fa-twitter" href="https://twitter.com/CourageDigital"><span class="label">Twitter</span></a></li>
-	<li><a class="icon fa-facebook" href="https://www.facebook.com/pages/Courage-Digital/334985203355948"><span class="label">Facebook</span></a></li>
-	<li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
-</ul>
+    <ul class="actions">
+	   <li><a class="icon fa-twitter" href="https://twitter.com/CourageDigital"><span class="label">Twitter</span></a></li>
+	   <li><a class="icon fa-facebook" href="https://www.facebook.com/pages/Courage-Digital/334985203355948"><span class="label">Facebook</span></a></li>
+	   <li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
+    </ul>
 <!-- Menu -->
 
-<ul class="menu">
-	<li>&copy; Courage Digital Solutions</li>
-	<li style="font-size:xx-small">Design:HTML5UP</li>
-</ul>
+    <ul class="menu">
+	   <li>&copy; Courage Digital Solutions</li>
+	   <li style="font-size:xx-small">Design:HTML5UP</li>
+    </ul>
 </footer>
 </body>
 </html>

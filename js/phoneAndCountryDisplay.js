@@ -1,22 +1,22 @@
 $(function() {
-    $("#fphone").hide();
-    $("#fcountry").hide();    
-		$("#fenquiry").change(function(){
+    $("#phone").hide();
+    $("#country").hide();    
+		$("#enquiry").change(function(){
 			var val=$(this).val();
 			switch (val){
 				case 'job':
-					$("#fphone").hide();
-					$("#fcountry").hide();
+					$("#phone").hide();
+					$("#country").hide();
 					$("label.error").hide();
   					$(".error").removeClass("error");				
 					break;
 				case 'business':
-					$("#fphone").show();
-					$("#fcountry").show();
+					$("#phone").show();
+					$("#country").show();
 					break;
 				default:
-					$("#fphone").hide();
-					$("#fcountry").hide();
+					$("#phone").hide();
+					$("#country").hide();
 					$("label.error").hide();
  					$(".error").removeClass("error");
 					break;
